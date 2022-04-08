@@ -25,7 +25,7 @@ function addEntry(folder, inFile, outFile) {
       },
       {
         format: "iife",
-        name: `smartmed.${folder}`,
+        name: `awesome-vue-library-publish-test.${folder}`,
         file: `dist/${folder}/${outFile}.js`,
         globals: globalDependencies,
       },
@@ -46,7 +46,7 @@ function addEntry(folder, inFile, outFile) {
       },
       {
         format: "iife",
-        name: `smartmed.${folder}`,
+        name: `awesome-vue-library-publish-test.${folder}`,
         file: `dist/${folder}/${outFile}.min.js`,
         globals: globalDependencies,
       },
